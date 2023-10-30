@@ -1,6 +1,4 @@
 pylint
 transformers
 torch
-torchvision
-torchaudio
 gradio
