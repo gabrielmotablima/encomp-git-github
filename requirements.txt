@@ -1,4 +1,6 @@
 transformers
+tensorflow
 torch
 torchvision
 torchaudio
+gradio
