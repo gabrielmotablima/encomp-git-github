@@ -1,3 +1,5 @@
+"""Module providing the server point of the application."""
+
 import gradio as gr
 from interfaces import (
 	text_completion as tc,
