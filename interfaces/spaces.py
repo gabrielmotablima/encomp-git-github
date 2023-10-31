@@ -2,7 +2,7 @@
 
 import gradio as gr
 
-def spaces(space="ydshieh/Kosmos-2"):
+def spaces(spaces=["ydshieh/Kosmos-2"]):
     """ Generate interface to user interact with some ready-to-use space
  
         Parameters
@@ -15,4 +15,4 @@ def spaces(space="ydshieh/Kosmos-2"):
             gradio.interface.Interface
                 gradio Interface for user interaction
     """
-    return gr.load(space, src="spaces")
+    return [gr.load(space, src="spaces") for space in spaces]
