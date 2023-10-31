@@ -3,5 +3,5 @@ mypy
 jinja2==3.0.3
 # transformers
 # torch
-gradio_client==0.2.7
-gradio
+gradio_client==0.5.3
+gradio==3.45.2
