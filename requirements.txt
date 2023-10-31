@@ -3,4 +3,5 @@ mypy
 jinja2==3.0.3
 # transformers
 # torch
+gradio_client==0.2.7
 gradio
