@@ -1,4 +1,6 @@
 pylint
+mypy
+jinja2==3.0.3
 # transformers
 # torch
 gradio

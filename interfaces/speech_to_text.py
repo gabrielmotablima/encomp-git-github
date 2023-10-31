@@ -1,8 +1,8 @@
 """Module providing a function to create an Interface for user interaction."""
 
-import gradio as gr
+import gradio as gr # type: ignore
 
-def speech_to_text(model="facebook/wav2vec2-base-960h"):
+def speech_to_text(model:str="facebook/wav2vec2-base-960h"):
     """ Generate interface to user interact with the speech to text model
  
         Parameters

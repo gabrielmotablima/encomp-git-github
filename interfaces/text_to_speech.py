@@ -1,6 +1,6 @@
 """Module providing a function to create an Interface for user interaction."""
 
-import gradio as gr
+import gradio as gr # type: ignore
 
 def text_to_speech(model:str="facebook/fastspeech2-en-ljspeech"):
     """ Generate interface to user interact with the text to speech model

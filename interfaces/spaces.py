@@ -1,8 +1,8 @@
 """Module providing a function to create an Interface for user interaction."""
 
-import gradio as gr
+import gradio as gr # type: ignore
 
-def spaces(spaces=["ydshieh/Kosmos-2"]):
+def spaces(space:str="ydshieh/Kosmos-2"):
     """ Generate interface to user interact with some ready-to-use space
  
         Parameters
@@ -15,4 +15,4 @@ def spaces(spaces=["ydshieh/Kosmos-2"]):
             gradio.interface.Interface
                 gradio Interface for user interaction
     """
-    return [gr.load(space, src="spaces") for space in spaces]
+    return gr.load(name=space, src="spaces")
